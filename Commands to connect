@@ -1,0 +1,8 @@
+
+    1  sudo apt update -y
+    2  sudo apt install mysql -y
+    3  apt install mysql -y
+    4  sudo apt install mysql-server -y
+    5  ssh -i test_key.pem ec2-user@34.230.5.112
+    6  mysql -h mydb-instance.c10qwk2sowk1.us-east-1.rds.amazonaws.com:3306 -u admin -p
+    7  mysql -h mydb-instance.c10qwk2sowk1.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
